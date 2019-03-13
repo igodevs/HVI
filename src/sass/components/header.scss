@@ -1,0 +1,40 @@
+.section-header{
+    height: 5rem;
+    width: 100%;
+    // background-color: $color-blue;
+    background-image: linear-gradient(to right, $color-blue, #7e40fc);
+    padding: 0 20%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    z-index: 10;
+}
+
+.header {
+
+    &-logo{
+        flex: .5;
+        font-size: 1.8rem;
+        color: white;
+        text-decoration: none;
+    }
+    // &-buttons{
+    //     flex: .6;
+    //     display: flex;
+    //     justify-content: center;
+    //     cursor: pointer;
+    //     :not(:last-child){
+    //         margin-right: 2rem;
+    //     }
+    //     & > p {
+    //         &:hover{
+    //             color: white;
+    //         }
+    //     }
+    // }
+    &-hrefs{
+        flex: .5;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
