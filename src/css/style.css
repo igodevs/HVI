@@ -49,7 +49,6 @@ body {
   justify-content: flex-end; }
 
 .section-footer {
-  margin-top: 4rem;
   width: 60%;
   height: 20rem;
   border-top: 1px solid;
@@ -124,6 +123,11 @@ tbody {
       bottom: -9999px;
       background-color: rgba(255, 255, 255, 0.2);
       z-index: -1; }
+
+.inputBox {
+  height: 3.9rem;
+  width: 25rem;
+  padding: 0.75rem 3rem; }
 
 .section-home {
   height: 60rem;
@@ -213,10 +217,23 @@ tbody {
         color: #999; }
 
 .section-application {
-  width: 100%;
-  height: 60rem;
+  width: 60%;
+  height: 64rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding-top: 3rem; }
+
+.button {
+  background-color: #008CBA;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
